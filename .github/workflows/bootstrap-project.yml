@@ -1,0 +1,48 @@
+name: Publish prepared project
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify and unpack prepared project
+        run: |
+          python3 - <<'PY'
+          import hashlib, zipfile
+          from pathlib import Path
+          archive = Path('MacDownUp-GitHub.zip')
+          expected = '14024ab421d83227fa418b31a9b02f856b054b5a8ec236b75a4528e4d67171d3'
+          if hashlib.sha256(archive.read_bytes()).hexdigest() != expected:
+              raise ValueError('Project archive checksum mismatch')
+          with zipfile.ZipFile(archive) as package:
+              for entry in package.infolist():
+                  parts = Path(entry.filename).parts
+                  if not parts or parts[0] != 'MacDownUp' or '..' in parts:
+                      raise ValueError('Unexpected archive path')
+                  relative = Path(*parts[1:])
+                  if not parts[1:] or parts[1] == '.github' or entry.is_dir():
+                      continue
+                  relative.parent.mkdir(parents=True, exist_ok=True)
+                  relative.write_bytes(package.read(entry))
+                  mode = (entry.external_attr >> 16) & 0o777
+                  if mode:
+                      relative.chmod(mode)
+          PY
+      - name: Validate project data
+        run: python3 -m unittest discover -s automation -p 'test_*.py'
+      - name: Commit project and web catalog
+        run: |
+          git config user.name 'MacDownUp project bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Sources Resources Tools Verification automation wallpapers catalog.json app-update.json README.md build.sh .gitignore
+          git rm MacDownUp-GitHub.zip
+          git commit -m 'Publish MacDownUp project and web catalog'
+          git pull --rebase origin main
+          git push origin HEAD:main
