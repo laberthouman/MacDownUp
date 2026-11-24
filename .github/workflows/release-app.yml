@@ -1,0 +1,57 @@
+name: Release MacDownUp
+on:
+  push:
+    tags: ['v[0-9]*']
+permissions:
+  contents: write
+concurrency:
+  group: macdownup-release
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Set app version from release tag
+        run: |
+          python3 - <<'PY'
+          import os, plistlib, re
+          from pathlib import Path
+          version = os.environ['GITHUB_REF_NAME'].removeprefix('v')
+          if not re.fullmatch(r'\d+(?:\.\d+){0,3}', version):
+              raise ValueError('Use a stable version tag such as v3.1')
+          path = Path('Resources/Info.plist')
+          info = plistlib.loads(path.read_bytes())
+          info['CFBundleShortVersionString'] = version
+          info['CFBundleVersion'] = os.environ['GITHUB_RUN_NUMBER']
+          path.write_bytes(plistlib.dumps(info))
+          PY
+      - name: Test and build universal app
+        run: |
+          bash Tools/verify.sh
+          MACDOWNUP_APP_PATH="$RUNNER_TEMP/MacDownUp.app" bash build.sh
+          ditto -c -k --sequesterRsrc --keepParent "$RUNNER_TEMP/MacDownUp.app" "$RUNNER_TEMP/MacDownUp.zip"
+      - name: Publish verified ZIP
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" "$RUNNER_TEMP/MacDownUp.zip" --generate-notes
+      - name: Generate app-update.json
+        run: python3 automation/publish_update.py "$RUNNER_TEMP/MacDownUp.zip" "$RUNNER_TEMP/MacDownUp.app/Contents/Info.plist"
+      - name: Save update manifest on main
+        run: |
+          cp app-update.json "$RUNNER_TEMP/app-update.json"
+          git restore Resources/Info.plist
+          git switch main
+          git pull --rebase origin main
+          cp "$RUNNER_TEMP/app-update.json" app-update.json
+          git config user.name 'MacDownUp release bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add app-update.json
+          git commit -m "Publish update manifest for $GITHUB_REF_NAME"
+          git push origin main
