@@ -1,1569 +1,1569 @@
 {
-  "releases" : [
+  "releases": [
     {
-      "architecture" : "Apple silicon",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Apple silicon",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Все модели с Apple silicon, начиная с M1 (2020)"
+            "family": "MacBook Pro",
+            "models": "Все модели с Apple silicon, начиная с M1 (2020)"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Все модели с Apple silicon, начиная с M1 (2020)"
+            "family": "MacBook Air",
+            "models": "Все модели с Apple silicon, начиная с M1 (2020)"
           },
           {
-            "family" : "MacBook Neo",
-            "models" : "13″, A18 Pro"
+            "family": "MacBook Neo",
+            "models": "13″, A18 Pro"
           },
           {
-            "family" : "iMac",
-            "models" : "24″ с Apple silicon (2021 и новее)"
+            "family": "iMac",
+            "models": "24″ с Apple silicon (2021 и новее)"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Apple silicon (2020 и новее)"
+            "family": "Mac mini",
+            "models": "Apple silicon (2020 и новее)"
           },
           {
-            "family" : "Mac Studio",
-            "models" : "2022 и новее"
+            "family": "Mac Studio",
+            "models": "2022 и новее"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "Apple silicon (2023)"
+            "family": "Mac Pro",
+            "models": "Apple silicon (2023)"
           }
         ],
-        "note" : "Golden Gate поддерживает Mac с Apple silicon. Модели с процессорами Intel не поддерживаются. Точный список и новые модели — на сайте Apple.",
-        "reference" : "https://support.apple.com/127255"
+        "note": "Golden Gate поддерживает Mac с Apple silicon. Модели с процессорами Intel не поддерживаются. Точный список и новые модели — на сайте Apple.",
+        "reference": "https://support.apple.com/127255"
       },
-      "detail" : "Самое новое поколение macOS",
-      "family" : "macOS",
-      "finalVersion" : "27.2.1",
-      "id" : "27",
-      "installerMedia" : "Полный установщик",
-      "isModern" : true,
-      "marketingName" : "Golden Gate",
-      "number" : "27",
-      "overview" : "Golden Gate продолжает развитие Liquid Glass и системных инструментов искусственного интеллекта. Эта версия предназначена для Mac с Apple silicon.",
-      "sources" : [
+      "detail": "Самое новое поколение macOS",
+      "family": "macOS",
+      "finalVersion": "27.2.1",
+      "id": "27",
+      "installerMedia": "Полный установщик",
+      "isModern": true,
+      "marketingName": "Golden Gate",
+      "number": "27",
+      "overview": "Golden Gate продолжает развитие Liquid Glass и системных инструментов искусственного интеллекта. Эта версия предназначена для Mac с Apple silicon.",
+      "sources": [
         {
-          "id" : "direct-27",
-          "kind" : "appleImage",
-          "reference" : "https://mrmacintosh.com/macos-golden-gate-full-installer-database-download-directly-from-apple/",
-          "subtitle" : "InstallAssistant.pkg · 27.2.1",
-          "title" : "Прямая загрузка Apple",
-          "url" : "https://swcdn.apple.com/content/downloads/57/06/142-52990-A_M5PDCSKEVA/zkg1s5t3ro2xe0lskvh7wyyc6cf37j4i4f/InstallAssistant.pkg"
+          "id": "direct-27",
+          "title": "Прямая загрузка Apple",
+          "subtitle": "InstallAssistant.pkg · 27.2.1 · 26B131",
+          "kind": "appleImage",
+          "url": "https://swcdn.apple.com/content/downloads/57/06/142-52990-A_M5PDCSKEVA/zkg1s5t3ro2xe0lskvh7wyyc6cf37j4i4f/InstallAssistant.pkg",
+          "reference": "https://support.apple.com/102662"
         },
         {
-          "id" : "software-27",
-          "kind" : "softwareUpdate",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Полный установщик для совместимого Mac",
-          "title" : "Apple Software Update",
-          "version" : "27.2.1"
+          "id": "software-27",
+          "kind": "softwareUpdate",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Полный установщик · 27.2.1",
+          "title": "Apple Software Update",
+          "version": "27.2.1"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/27.jpg",
-      "year" : 2026
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/27.jpg",
+      "year": 2026
     },
     {
-      "architecture" : "Apple silicon, Intel на поддерживаемых моделях",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Apple silicon, Intel на поддерживаемых моделях",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Apple silicon; Intel: 16″ (2019), 13″ (2020, четыре порта Thunderbolt 3)"
+            "family": "MacBook Pro",
+            "models": "Apple silicon; Intel: 16″ (2019), 13″ (2020, четыре порта Thunderbolt 3)"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Apple silicon: M1 (2020) и новее"
+            "family": "MacBook Air",
+            "models": "Apple silicon: M1 (2020) и новее"
           },
           {
-            "family" : "MacBook Neo",
-            "models" : "13″, A18 Pro"
+            "family": "MacBook Neo",
+            "models": "13″, A18 Pro"
           },
           {
-            "family" : "iMac",
-            "models" : "24″ с Apple silicon; Retina 5K 27″ (2020)"
+            "family": "iMac",
+            "models": "24″ с Apple silicon; Retina 5K 27″ (2020)"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Apple silicon: M1 (2020) и новее"
+            "family": "Mac mini",
+            "models": "Apple silicon: M1 (2020) и новее"
           },
           {
-            "family" : "Mac Studio",
-            "models" : "2022, 2023, 2025"
+            "family": "Mac Studio",
+            "models": "2022, 2023, 2025"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "2019, 2023"
+            "family": "Mac Pro",
+            "models": "2019, 2023"
           }
         ],
-        "note" : "Intel MacBook Air и MacBook Pro 13″ 2020 с двумя портами Thunderbolt 3 не поддерживаются. Возможности Apple Intelligence требуют Apple silicon. Для новых моделей смотрите точный список Apple.",
-        "reference" : "https://support.apple.com/122867"
+        "note": "Intel MacBook Air и MacBook Pro 13″ 2020 с двумя портами Thunderbolt 3 не поддерживаются. Возможности Apple Intelligence требуют Apple silicon. Для новых моделей смотрите точный список Apple.",
+        "reference": "https://support.apple.com/122867"
       },
-      "detail" : "Новый дизайн и Apple Intelligence",
-      "family" : "macOS",
-      "finalVersion" : "26.7.3",
-      "id" : "26",
-      "installerMedia" : "Полный установщик",
-      "isModern" : true,
-      "marketingName" : "Tahoe",
-      "number" : "26",
-      "overview" : "Tahoe представляет оформление Liquid Glass, обновлённый Spotlight и приложение «Телефон». Это последнее основное поколение macOS с поддержкой отдельных Intel Mac.",
-      "sources" : [
+      "detail": "Новый дизайн и Apple Intelligence",
+      "family": "macOS",
+      "finalVersion": "26.7.3",
+      "id": "26",
+      "installerMedia": "Полный установщик",
+      "isModern": true,
+      "marketingName": "Tahoe",
+      "number": "26",
+      "overview": "Tahoe представляет оформление Liquid Glass, обновлённый Spotlight и приложение «Телефон». Это последнее основное поколение macOS с поддержкой отдельных Intel Mac.",
+      "sources": [
         {
-          "id" : "direct-26",
-          "kind" : "appleImage",
-          "reference" : "https://mrmacintosh.com/macos-tahoe-full-installer-database-download-directly-from-apple/",
-          "subtitle" : "InstallAssistant.pkg · 26.7.3",
-          "title" : "Прямая загрузка Apple",
-          "url" : "https://swcdn.apple.com/content/downloads/02/21/142-54128-A_OWMUBNYT6S/xlorkwl2msc8dgn34ayr8dk2jm8xka68z3/InstallAssistant.pkg"
+          "id": "direct-26",
+          "title": "Прямая загрузка Apple",
+          "subtitle": "InstallAssistant.pkg · 26.7.3 · 25G342",
+          "kind": "appleImage",
+          "url": "https://swcdn.apple.com/content/downloads/02/21/142-54128-A_OWMUBNYT6S/xlorkwl2msc8dgn34ayr8dk2jm8xka68z3/InstallAssistant.pkg",
+          "reference": "https://support.apple.com/102662"
         },
         {
-          "id" : "software-26",
-          "kind" : "softwareUpdate",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Полный установщик для совместимого Mac",
-          "title" : "Apple Software Update",
-          "version" : "26.7.3"
+          "id": "software-26",
+          "kind": "softwareUpdate",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Полный установщик · 26.7.3",
+          "title": "Apple Software Update",
+          "version": "26.7.3"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/26.jpg",
-      "year" : 2025
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/26.jpg",
+      "year": 2025
     },
     {
-      "architecture" : "Apple silicon и Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Apple silicon и Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "2018–2024"
+            "family": "MacBook Pro",
+            "models": "2018–2024"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "2020–2025 (Intel и Apple silicon)"
+            "family": "MacBook Air",
+            "models": "2020–2025 (Intel и Apple silicon)"
           },
           {
-            "family" : "iMac",
-            "models" : "2019–2024"
+            "family": "iMac",
+            "models": "2019–2024"
           },
           {
-            "family" : "iMac Pro",
-            "models" : "2017"
+            "family": "iMac Pro",
+            "models": "2017"
           },
           {
-            "family" : "Mac mini",
-            "models" : "2018–2024"
+            "family": "Mac mini",
+            "models": "2018–2024"
           },
           {
-            "family" : "Mac Studio",
-            "models" : "2022–2025"
+            "family": "Mac Studio",
+            "models": "2022–2025"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "2019, 2023"
+            "family": "Mac Pro",
+            "models": "2019, 2023"
           }
         ],
-        "note" : "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
-        "reference" : "https://support.apple.com/120282"
+        "note": "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
+        "reference": "https://support.apple.com/120282"
       },
-      "detail" : "Зеркалирование iPhone и удобные окна",
-      "family" : "macOS",
-      "finalVersion" : "15.8.3",
-      "id" : "15",
-      "installerMedia" : "App Store",
-      "isModern" : true,
-      "marketingName" : "Sequoia",
-      "number" : "15",
-      "overview" : "Sequoia добавляет зеркалирование iPhone, удобное размещение окон и приложение «Пароли». Возможности Apple Intelligence зависят от чипа, языка и региона.",
-      "sources" : [
+      "detail": "Зеркалирование iPhone и удобные окна",
+      "family": "macOS",
+      "finalVersion": "15.8.3",
+      "id": "15",
+      "installerMedia": "App Store",
+      "isModern": true,
+      "marketingName": "Sequoia",
+      "number": "15",
+      "overview": "Sequoia добавляет зеркалирование iPhone, удобное размещение окон и приложение «Пароли». Возможности Apple Intelligence зависят от чипа, языка и региона.",
+      "sources": [
         {
-          "id" : "direct-15",
-          "kind" : "appleImage",
-          "reference" : "https://mrmacintosh.com/macos-sequoia-full-installer-database-download-directly-from-apple/",
-          "subtitle" : "InstallAssistant.pkg · 15.8.3",
-          "title" : "Прямая загрузка Apple",
-          "url" : "https://swcdn.apple.com/content/downloads/35/30/142-54123-A_L1FDSOKH17/4v632s6ip8ranyhu7hc09akv6d5239x9tq/InstallAssistant.pkg"
+          "id": "direct-15",
+          "title": "Прямая загрузка Apple",
+          "subtitle": "InstallAssistant.pkg · 15.8.3 · 24H241",
+          "kind": "appleImage",
+          "url": "https://swcdn.apple.com/content/downloads/35/30/142-54123-A_L1FDSOKH17/4v632s6ip8ranyhu7hc09akv6d5239x9tq/InstallAssistant.pkg",
+          "reference": "https://support.apple.com/102662"
         },
         {
-          "id" : "store-15",
-          "kind" : "appStore",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Официальная страница · нужен совместимый Mac",
-          "title" : "Mac App Store",
-          "url" : "https://apps.apple.com/app/macos-sequoia/id6596773750?mt=12"
+          "id": "store-15",
+          "kind": "appStore",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Официальная страница · нужен совместимый Mac",
+          "title": "Mac App Store",
+          "url": "https://apps.apple.com/app/macos-sequoia/id6596773750?mt=12"
         },
         {
-          "id" : "software-15",
-          "kind" : "softwareUpdate",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Полный установщик · 15.8.3",
-          "title" : "Apple Software Update",
-          "version" : "15.8.3"
+          "id": "software-15",
+          "kind": "softwareUpdate",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Полный установщик · 15.8.3",
+          "title": "Apple Software Update",
+          "version": "15.8.3"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/15.jpg",
-      "year" : 2024
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/15.jpg",
+      "year": 2024
     },
     {
-      "architecture" : "Apple silicon и Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Apple silicon и Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "2018–2023"
+            "family": "MacBook Pro",
+            "models": "2018–2023"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "2018–2024"
+            "family": "MacBook Air",
+            "models": "2018–2024"
           },
           {
-            "family" : "iMac",
-            "models" : "2019–2023"
+            "family": "iMac",
+            "models": "2019–2023"
           },
           {
-            "family" : "iMac Pro",
-            "models" : "2017"
+            "family": "iMac Pro",
+            "models": "2017"
           },
           {
-            "family" : "Mac mini",
-            "models" : "2018–2023"
+            "family": "Mac mini",
+            "models": "2018–2023"
           },
           {
-            "family" : "Mac Studio",
-            "models" : "2022, 2023"
+            "family": "Mac Studio",
+            "models": "2022, 2023"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "2019, 2023"
+            "family": "Mac Pro",
+            "models": "2019, 2023"
           }
         ],
-        "note" : "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
-        "reference" : "https://support.apple.com/105113"
+        "note": "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
+        "reference": "https://support.apple.com/105113"
       },
-      "detail" : "Виджеты на рабочем столе и игровой режим",
-      "family" : "macOS",
-      "finalVersion" : "14.8.9",
-      "id" : "14",
-      "installerMedia" : "App Store",
-      "isModern" : true,
-      "marketingName" : "Sonoma",
-      "number" : "14",
-      "overview" : "Sonoma переносит интерактивные виджеты на рабочий стол, добавляет видеозаставки и веб-приложения Safari. Игровой режим доступен на Mac с Apple silicon.",
-      "sources" : [
+      "detail": "Виджеты на рабочем столе и игровой режим",
+      "family": "macOS",
+      "finalVersion": "14.8.9",
+      "id": "14",
+      "installerMedia": "App Store",
+      "isModern": true,
+      "marketingName": "Sonoma",
+      "number": "14",
+      "overview": "Sonoma переносит интерактивные виджеты на рабочий стол, добавляет видеозаставки и веб-приложения Safari. Игровой режим доступен на Mac с Apple silicon.",
+      "sources": [
         {
-          "id" : "direct-14",
-          "kind" : "appleImage",
-          "reference" : "https://mrmacintosh.com/macos-sonoma-full-installer-database-download-directly-from-apple/",
-          "subtitle" : "InstallAssistant.pkg · 14.8.9",
-          "title" : "Прямая загрузка Apple",
-          "url" : "https://swcdn.apple.com/content/downloads/13/30/140-88558-A_TN3FIE7J63/p61cqj3ktmcqilz3q64ls4ekp1os9c8qbp/InstallAssistant.pkg"
+          "id": "direct-14",
+          "title": "Прямая загрузка Apple",
+          "subtitle": "InstallAssistant.pkg · 14.8.9 · 23J631",
+          "kind": "appleImage",
+          "url": "https://swcdn.apple.com/content/downloads/13/30/140-88558-A_TN3FIE7J63/p61cqj3ktmcqilz3q64ls4ekp1os9c8qbp/InstallAssistant.pkg",
+          "reference": "https://support.apple.com/102662"
         },
         {
-          "id" : "store-14",
-          "kind" : "appStore",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Официальная страница · нужен совместимый Mac",
-          "title" : "Mac App Store",
-          "url" : "https://apps.apple.com/app/macos-sonoma/id6450717509?mt=12"
+          "id": "store-14",
+          "kind": "appStore",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Официальная страница · нужен совместимый Mac",
+          "title": "Mac App Store",
+          "url": "https://apps.apple.com/app/macos-sonoma/id6450717509?mt=12"
         },
         {
-          "id" : "software-14",
-          "kind" : "softwareUpdate",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Полный установщик · 14.8.9",
-          "title" : "Apple Software Update",
-          "version" : "14.8.9"
+          "id": "software-14",
+          "kind": "softwareUpdate",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Полный установщик · 14.8.9",
+          "title": "Apple Software Update",
+          "version": "14.8.9"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/14.jpg",
-      "year" : 2023
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/14.jpg",
+      "year": 2023
     },
     {
-      "architecture" : "Apple silicon и Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Apple silicon и Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "2017–2023"
+            "family": "MacBook Pro",
+            "models": "2017–2023"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "2018–2023"
+            "family": "MacBook Air",
+            "models": "2018–2023"
           },
           {
-            "family" : "MacBook",
-            "models" : "Retina 12″ (2017)"
+            "family": "MacBook",
+            "models": "Retina 12″ (2017)"
           },
           {
-            "family" : "iMac",
-            "models" : "2017–2021"
+            "family": "iMac",
+            "models": "2017–2021"
           },
           {
-            "family" : "iMac Pro",
-            "models" : "2017"
+            "family": "iMac Pro",
+            "models": "2017"
           },
           {
-            "family" : "Mac mini",
-            "models" : "2018–2023"
+            "family": "Mac mini",
+            "models": "2018–2023"
           },
           {
-            "family" : "Mac Studio",
-            "models" : "2022, 2023"
+            "family": "Mac Studio",
+            "models": "2022, 2023"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "2019, 2023"
+            "family": "Mac Pro",
+            "models": "2019, 2023"
           }
         ],
-        "note" : "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
-        "reference" : "https://support.apple.com/102861"
+        "note": "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
+        "reference": "https://support.apple.com/102861"
       },
-      "detail" : "Stage Manager и приложения iPhone",
-      "family" : "macOS",
-      "finalVersion" : "13.7.8",
-      "id" : "13",
-      "installerMedia" : "App Store",
-      "isModern" : true,
-      "marketingName" : "Ventura",
-      "number" : "13",
-      "overview" : "Ventura добавляет Stage Manager для организации окон, Continuity Camera для использования iPhone как камеры и обновлённые Системные настройки.",
-      "sources" : [
+      "detail": "Stage Manager и приложения iPhone",
+      "family": "macOS",
+      "finalVersion": "13.7.8",
+      "id": "13",
+      "installerMedia": "App Store",
+      "isModern": true,
+      "marketingName": "Ventura",
+      "number": "13",
+      "overview": "Ventura добавляет Stage Manager для организации окон, Continuity Camera для использования iPhone как камеры и обновлённые Системные настройки.",
+      "sources": [
         {
-          "id" : "direct-13",
-          "kind" : "appleImage",
-          "reference" : "https://mrmacintosh.com/macos-ventura-13-full-installer-database-download-directly-from-apple/",
-          "subtitle" : "InstallAssistant.pkg · 13.7.8",
-          "title" : "Прямая загрузка Apple",
-          "url" : "https://swcdn.apple.com/content/downloads/09/46/093-22004-A_QNZEDC334I/phigx2zvoggml6sh79my4y51fnvgy8hix4/InstallAssistant.pkg"
+          "id": "direct-13",
+          "title": "Прямая загрузка Apple",
+          "subtitle": "InstallAssistant.pkg · 13.7.8 · 22H730",
+          "kind": "appleImage",
+          "url": "https://swcdn.apple.com/content/downloads/09/46/093-22004-A_QNZEDC334I/phigx2zvoggml6sh79my4y51fnvgy8hix4/InstallAssistant.pkg",
+          "reference": "https://support.apple.com/102662"
         },
         {
-          "id" : "store-13",
-          "kind" : "appStore",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Официальная страница · нужен совместимый Mac",
-          "title" : "Mac App Store",
-          "url" : "https://apps.apple.com/app/macos-ventura/id1638787999?mt=12"
+          "id": "store-13",
+          "kind": "appStore",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Официальная страница · нужен совместимый Mac",
+          "title": "Mac App Store",
+          "url": "https://apps.apple.com/app/macos-ventura/id1638787999?mt=12"
         },
         {
-          "id" : "software-13",
-          "kind" : "softwareUpdate",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Полный установщик · 13.7.8",
-          "title" : "Apple Software Update",
-          "version" : "13.7.8"
+          "id": "software-13",
+          "kind": "softwareUpdate",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Полный установщик · 13.7.8",
+          "title": "Apple Software Update",
+          "version": "13.7.8"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/13.jpg",
-      "year" : 2022
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/13.jpg",
+      "year": 2022
     },
     {
-      "architecture" : "Apple silicon и Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Apple silicon и Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Начало 2015–2022"
+            "family": "MacBook Pro",
+            "models": "Начало 2015–2022"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Начало 2015–2022"
+            "family": "MacBook Air",
+            "models": "Начало 2015–2022"
           },
           {
-            "family" : "MacBook",
-            "models" : "Начало 2016–2017"
+            "family": "MacBook",
+            "models": "Начало 2016–2017"
           },
           {
-            "family" : "iMac",
-            "models" : "Конец 2015–2021"
+            "family": "iMac",
+            "models": "Конец 2015–2021"
           },
           {
-            "family" : "iMac Pro",
-            "models" : "2017"
+            "family": "iMac Pro",
+            "models": "2017"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Конец 2014–2020"
+            "family": "Mac mini",
+            "models": "Конец 2014–2020"
           },
           {
-            "family" : "Mac Studio",
-            "models" : "2022"
+            "family": "Mac Studio",
+            "models": "2022"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "Конец 2013, 2019"
+            "family": "Mac Pro",
+            "models": "Конец 2013, 2019"
           }
         ],
-        "note" : "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
-        "reference" : "https://support.apple.com/103260"
+        "note": "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
+        "reference": "https://support.apple.com/103260"
       },
-      "detail" : "Focus, Быстрая заметка и AirPlay на Mac",
-      "family" : "macOS",
-      "finalVersion" : "12.7.6",
-      "id" : "12",
-      "installerMedia" : "App Store",
-      "isModern" : true,
-      "marketingName" : "Monterey",
-      "number" : "12",
-      "overview" : "Monterey приносит Команды, режимы фокусирования, AirPlay на Mac и универсальное управление совместимыми Mac и iPad.",
-      "sources" : [
+      "detail": "Focus, Быстрая заметка и AirPlay на Mac",
+      "family": "macOS",
+      "finalVersion": "12.7.6",
+      "id": "12",
+      "installerMedia": "App Store",
+      "isModern": true,
+      "marketingName": "Monterey",
+      "number": "12",
+      "overview": "Monterey приносит Команды, режимы фокусирования, AirPlay на Mac и универсальное управление совместимыми Mac и iPad.",
+      "sources": [
         {
-          "id" : "direct-12",
-          "kind" : "appleImage",
-          "reference" : "https://mrmacintosh.com/macos-12-monterey-full-installer-database-download-directly-from-apple/",
-          "subtitle" : "InstallAssistant.pkg · 12.7.6",
-          "title" : "Прямая загрузка Apple",
-          "url" : "https://swcdn.apple.com/content/downloads/24/16/062-40406-A_LQ4WW26M04/j7bl9ygay5prezturwh72ai10fvseh2uhw/InstallAssistant.pkg"
+          "id": "direct-12",
+          "title": "Прямая загрузка Apple",
+          "subtitle": "InstallAssistant.pkg · 12.7.6 · 21H1320",
+          "kind": "appleImage",
+          "url": "https://swcdn.apple.com/content/downloads/24/16/062-40406-A_LQ4WW26M04/j7bl9ygay5prezturwh72ai10fvseh2uhw/InstallAssistant.pkg",
+          "reference": "https://support.apple.com/102662"
         },
         {
-          "id" : "store-12",
-          "kind" : "appStore",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Официальная страница · нужен совместимый Mac",
-          "title" : "Mac App Store",
-          "url" : "https://apps.apple.com/app/macos-monterey/id1576738294?mt=12"
+          "id": "store-12",
+          "kind": "appStore",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Официальная страница · нужен совместимый Mac",
+          "title": "Mac App Store",
+          "url": "https://apps.apple.com/app/macos-monterey/id1576738294?mt=12"
         },
         {
-          "id" : "software-12",
-          "kind" : "softwareUpdate",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Полный установщик · 12.7.6",
-          "title" : "Apple Software Update",
-          "version" : "12.7.6"
+          "id": "software-12",
+          "kind": "softwareUpdate",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Полный установщик · 12.7.6",
+          "title": "Apple Software Update",
+          "version": "12.7.6"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/12.jpg",
-      "year" : 2021
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/12.jpg",
+      "year": 2021
     },
     {
-      "architecture" : "Apple silicon и Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Apple silicon и Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Конец 2013–2020"
+            "family": "MacBook Pro",
+            "models": "Конец 2013–2020"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "2013–2020"
+            "family": "MacBook Air",
+            "models": "2013–2020"
           },
           {
-            "family" : "MacBook",
-            "models" : "2015–2017"
+            "family": "MacBook",
+            "models": "2015–2017"
           },
           {
-            "family" : "iMac",
-            "models" : "2014–2021"
+            "family": "iMac",
+            "models": "2014–2021"
           },
           {
-            "family" : "iMac Pro",
-            "models" : "2017"
+            "family": "iMac Pro",
+            "models": "2017"
           },
           {
-            "family" : "Mac mini",
-            "models" : "2014–2020"
+            "family": "Mac mini",
+            "models": "2014–2020"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "2013, 2019"
+            "family": "Mac Pro",
+            "models": "2013, 2019"
           }
         ],
-        "note" : "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
-        "reference" : "https://support.apple.com/103111"
+        "note": "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
+        "reference": "https://support.apple.com/103111"
       },
-      "detail" : "Новый облик macOS и Центр управления",
-      "family" : "macOS",
-      "finalVersion" : "11.7.11",
-      "id" : "11",
-      "installerMedia" : "App Store",
-      "isModern" : true,
-      "marketingName" : "Big Sur",
-      "number" : "11",
-      "overview" : "Big Sur обновляет оформление macOS, добавляет Центр управления и становится первой системой для Mac с Apple silicon.",
-      "sources" : [
+      "detail": "Новый облик macOS и Центр управления",
+      "family": "macOS",
+      "finalVersion": "11.7.11",
+      "id": "11",
+      "installerMedia": "App Store",
+      "isModern": true,
+      "marketingName": "Big Sur",
+      "number": "11",
+      "overview": "Big Sur обновляет оформление macOS, добавляет Центр управления и становится первой системой для Mac с Apple silicon.",
+      "sources": [
         {
-          "id" : "direct-11",
-          "kind" : "appleImage",
-          "reference" : "https://mrmacintosh.com/macos-big-sur-full-installer-database-download-directly-from-apple/",
-          "subtitle" : "InstallAssistant.pkg · 11.7.11",
-          "title" : "Прямая загрузка Apple",
-          "url" : "https://swcdn.apple.com/content/downloads/10/18/047-32248-A_Y7S9K47C9M/rqg3zuwb6dkofsdilmz22awvxtq2sxwr15/InstallAssistant.pkg"
+          "id": "direct-11",
+          "title": "Прямая загрузка Apple",
+          "subtitle": "InstallAssistant.pkg · 11.7.11 · 20G1443",
+          "kind": "appleImage",
+          "url": "https://swcdn.apple.com/content/downloads/10/18/047-32248-A_Y7S9K47C9M/rqg3zuwb6dkofsdilmz22awvxtq2sxwr15/InstallAssistant.pkg",
+          "reference": "https://support.apple.com/102662"
         },
         {
-          "id" : "store-11",
-          "kind" : "appStore",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Официальная страница · нужен совместимый Mac",
-          "title" : "Mac App Store",
-          "url" : "https://apps.apple.com/app/macos-big-sur/id1526878132?mt=12"
+          "id": "store-11",
+          "kind": "appStore",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Официальная страница · нужен совместимый Mac",
+          "title": "Mac App Store",
+          "url": "https://apps.apple.com/app/macos-big-sur/id1526878132?mt=12"
         },
         {
-          "id" : "software-11",
-          "kind" : "softwareUpdate",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Полный установщик · 11.7.11",
-          "title" : "Apple Software Update",
-          "version" : "11.7.11"
+          "id": "software-11",
+          "kind": "softwareUpdate",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Полный установщик · 11.7.11",
+          "title": "Apple Software Update",
+          "version": "11.7.11"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/11.jpg",
-      "year" : 2020
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/11.jpg",
+      "year": 2020
     },
     {
-      "architecture" : "Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Середина 2012–2020, только Intel"
+            "family": "MacBook Pro",
+            "models": "Середина 2012–2020, только Intel"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Середина 2012–2020, только Intel"
+            "family": "MacBook Air",
+            "models": "Середина 2012–2020, только Intel"
           },
           {
-            "family" : "MacBook",
-            "models" : "Начало 2015–2017"
+            "family": "MacBook",
+            "models": "Начало 2015–2017"
           },
           {
-            "family" : "iMac",
-            "models" : "Конец 2012–2020"
+            "family": "iMac",
+            "models": "Конец 2012–2020"
           },
           {
-            "family" : "iMac Pro",
-            "models" : "2017"
+            "family": "iMac Pro",
+            "models": "2017"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Конец 2012–2018"
+            "family": "Mac mini",
+            "models": "Конец 2012–2018"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "Конец 2013, 2019"
+            "family": "Mac Pro",
+            "models": "Конец 2013, 2019"
           }
         ],
-        "note" : "Catalina работает только на Intel Mac и не запускает 32-битные приложения. Для моделей 2019–2020 требуется подходящая сборка 10.15; Apple silicon не поддерживается.",
-        "reference" : "https://support.apple.com/102765"
+        "note": "Catalina работает только на Intel Mac и не запускает 32-битные приложения. Для моделей 2019–2020 требуется подходящая сборка 10.15; Apple silicon не поддерживается.",
+        "reference": "https://support.apple.com/102765"
       },
-      "detail" : "Музыка, Подкасты и Apple TV на Mac",
-      "family" : "macOS",
-      "finalVersion" : "10.15.8",
-      "id" : "10.15",
-      "installerMedia" : "App Store",
-      "isModern" : true,
-      "marketingName" : "Catalina",
-      "number" : "10.15",
-      "overview" : "Catalina разделяет iTunes на Музыку, Подкасты и TV. Sidecar позволяет использовать совместимый iPad как второй экран. Поддерживаются только 64-битные приложения.",
-      "sources" : [
+      "detail": "Музыка, Подкасты и Apple TV на Mac",
+      "family": "macOS",
+      "finalVersion": "10.15.8",
+      "id": "10.15",
+      "installerMedia": "App Store",
+      "isModern": true,
+      "marketingName": "Catalina",
+      "number": "10.15",
+      "overview": "Catalina разделяет iTunes на Музыку, Подкасты и TV. Sidecar позволяет использовать совместимый iPad как второй экран. Поддерживаются только 64-битные приложения.",
+      "sources": [
         {
-          "id" : "store-10.15",
-          "kind" : "appStore",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Официальная страница · нужен совместимый Mac",
-          "title" : "Mac App Store",
-          "url" : "https://apps.apple.com/app/macos-catalina/id1466841314?mt=12"
+          "id": "store-10.15",
+          "kind": "appStore",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Официальная страница · нужен совместимый Mac",
+          "title": "Mac App Store",
+          "url": "https://apps.apple.com/app/macos-catalina/id1466841314?mt=12"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.15.jpg",
-      "year" : 2019
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.15.jpg",
+      "year": 2019
     },
     {
-      "architecture" : "Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Середина 2012–2019 (до моделей, поставлявшихся с Catalina)"
+            "family": "MacBook Pro",
+            "models": "Середина 2012–2019 (до моделей, поставлявшихся с Catalina)"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Середина 2012–2019"
+            "family": "MacBook Air",
+            "models": "Середина 2012–2019"
           },
           {
-            "family" : "MacBook",
-            "models" : "Начало 2015–2017"
+            "family": "MacBook",
+            "models": "Начало 2015–2017"
           },
           {
-            "family" : "iMac",
-            "models" : "Конец 2012–2019"
+            "family": "iMac",
+            "models": "Конец 2012–2019"
           },
           {
-            "family" : "iMac Pro",
-            "models" : "2017"
+            "family": "iMac Pro",
+            "models": "2017"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Конец 2012–2018"
+            "family": "Mac mini",
+            "models": "Конец 2012–2018"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "Конец 2013; середина 2010 и 2012 с видеокартой Metal"
+            "family": "Mac Pro",
+            "models": "Конец 2013; середина 2010 и 2012 с видеокартой Metal"
           }
         ],
-        "note" : "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
-        "reference" : "https://support.apple.com/112009"
+        "note": "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
+        "reference": "https://support.apple.com/112009"
       },
-      "detail" : "Темный режим и стопки на рабочем столе",
-      "family" : "macOS",
-      "finalVersion" : "10.14.6",
-      "id" : "10.14",
-      "installerMedia" : "App Store",
-      "isModern" : true,
-      "marketingName" : "Mojave",
-      "number" : "10.14",
-      "overview" : "Mojave добавляет тёмный режим, динамический рабочий стол, стопки файлов и обновлённый Mac App Store. Это последнее поколение macOS с поддержкой 32-битных приложений.",
-      "sources" : [
+      "detail": "Темный режим и стопки на рабочем столе",
+      "family": "macOS",
+      "finalVersion": "10.14.6",
+      "id": "10.14",
+      "installerMedia": "App Store",
+      "isModern": true,
+      "marketingName": "Mojave",
+      "number": "10.14",
+      "overview": "Mojave добавляет тёмный режим, динамический рабочий стол, стопки файлов и обновлённый Mac App Store. Это последнее поколение macOS с поддержкой 32-битных приложений.",
+      "sources": [
         {
-          "id" : "store-10.14",
-          "kind" : "appStore",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Официальная страница · нужен совместимый Mac",
-          "title" : "Mac App Store",
-          "url" : "https://apps.apple.com/app/macos-mojave/id1398502828?mt=12"
+          "id": "store-10.14",
+          "kind": "appStore",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Официальная страница · нужен совместимый Mac",
+          "title": "Mac App Store",
+          "url": "https://apps.apple.com/app/macos-mojave/id1398502828?mt=12"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.14.jpg",
-      "year" : 2018
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.14.jpg",
+      "year": 2018
     },
     {
-      "architecture" : "Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Середина 2010–2017"
+            "family": "MacBook Pro",
+            "models": "Середина 2010–2017"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Конец 2010–2017"
+            "family": "MacBook Air",
+            "models": "Конец 2010–2017"
           },
           {
-            "family" : "MacBook",
-            "models" : "Конец 2009–2017"
+            "family": "MacBook",
+            "models": "Конец 2009–2017"
           },
           {
-            "family" : "iMac",
-            "models" : "Конец 2009–2017"
+            "family": "iMac",
+            "models": "Конец 2009–2017"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Середина 2010–2014"
+            "family": "Mac mini",
+            "models": "Середина 2010–2014"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "Середина 2010, 2012, конец 2013"
+            "family": "Mac Pro",
+            "models": "Середина 2010, 2012, конец 2013"
           },
           {
-            "family" : "iMac Pro",
-            "models" : "2017"
+            "family": "iMac Pro",
+            "models": "2017"
           }
         ],
-        "note" : "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
-        "reference" : "https://support.apple.com/111944"
+        "note": "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
+        "reference": "https://support.apple.com/111944"
       },
-      "detail" : "Файловая система APFS и Metal 2",
-      "family" : "macOS",
-      "finalVersion" : "10.13.6",
-      "id" : "10.13",
-      "installerMedia" : "App Store",
-      "isModern" : true,
-      "marketingName" : "High Sierra",
-      "number" : "10.13",
-      "overview" : "High Sierra вводит файловую систему APFS, поддержку HEVC и Metal 2. Изменения сосредоточены на технологиях хранения, графики и видео.",
-      "sources" : [
+      "detail": "Файловая система APFS и Metal 2",
+      "family": "macOS",
+      "finalVersion": "10.13.6",
+      "id": "10.13",
+      "installerMedia": "App Store",
+      "isModern": true,
+      "marketingName": "High Sierra",
+      "number": "10.13",
+      "overview": "High Sierra вводит файловую систему APFS, поддержку HEVC и Metal 2. Изменения сосредоточены на технологиях хранения, графики и видео.",
+      "sources": [
         {
-          "id" : "store-10.13",
-          "kind" : "appStore",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "Официальная страница · нужен совместимый Mac",
-          "title" : "Mac App Store",
-          "url" : "https://apps.apple.com/app/macos-high-sierra/id1246284741?mt=12"
+          "id": "store-10.13",
+          "kind": "appStore",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "Официальная страница · нужен совместимый Mac",
+          "title": "Mac App Store",
+          "url": "https://apps.apple.com/app/macos-high-sierra/id1246284741?mt=12"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.13.jpg",
-      "year" : 2017
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.13.jpg",
+      "year": 2017
     },
     {
-      "architecture" : "Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Середина 2010–2016"
+            "family": "MacBook Pro",
+            "models": "Середина 2010–2016"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Конец 2010–2015"
+            "family": "MacBook Air",
+            "models": "Конец 2010–2015"
           },
           {
-            "family" : "MacBook",
-            "models" : "Конец 2009–2016"
+            "family": "MacBook",
+            "models": "Конец 2009–2016"
           },
           {
-            "family" : "iMac",
-            "models" : "Конец 2009–2015"
+            "family": "iMac",
+            "models": "Конец 2009–2015"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Середина 2010–2014"
+            "family": "Mac mini",
+            "models": "Середина 2010–2014"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "Середина 2010, 2012, конец 2013"
+            "family": "Mac Pro",
+            "models": "Середина 2010, 2012, конец 2013"
           }
         ],
-        "note" : "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
-        "reference" : "https://support.apple.com/111988"
+        "note": "Указаны семейства и минимальные поколения. Mac не поддерживает систему старше той, с которой он поставлялся; для более поздних моделей нужен соответствующий выпуск этой macOS.",
+        "reference": "https://support.apple.com/111988"
       },
-      "detail" : "Siri впервые появилась на Mac",
-      "family" : "macOS",
-      "finalVersion" : "10.12.6",
-      "id" : "10.12",
-      "installerMedia" : "InstallOS.dmg",
-      "isModern" : false,
-      "marketingName" : "Sierra",
-      "number" : "10.12",
-      "overview" : "Sierra впервые приносит Siri на Mac, общий буфер обмена и синхронизацию рабочего стола и документов через iCloud Drive.",
-      "sources" : [
+      "detail": "Siri впервые появилась на Mac",
+      "family": "macOS",
+      "finalVersion": "10.12.6",
+      "id": "10.12",
+      "installerMedia": "InstallOS.dmg",
+      "isModern": false,
+      "marketingName": "Sierra",
+      "number": "10.12",
+      "overview": "Sierra впервые приносит Siri на Mac, общий буфер обмена и синхронизацию рабочего стола и документов через iCloud Drive.",
+      "sources": [
         {
-          "id" : "image-10.12",
-          "kind" : "appleImage",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "DMG · установочный носитель",
-          "title" : "Образ с серверов Apple",
-          "url" : "https://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg"
+          "id": "image-10.12",
+          "kind": "appleImage",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "DMG · установочный носитель",
+          "title": "Образ с серверов Apple",
+          "url": "https://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.12.jpg",
-      "year" : 2016
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.12.jpg",
+      "year": 2016
     },
     {
-      "architecture" : "Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Середина / конец 2007–2016"
+            "family": "MacBook Pro",
+            "models": "Середина / конец 2007–2016"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Конец 2008–2016"
+            "family": "MacBook Air",
+            "models": "Конец 2008–2016"
           },
           {
-            "family" : "MacBook",
-            "models" : "Алюминиевый: конец 2008; белый: начало 2009 и новее"
+            "family": "MacBook",
+            "models": "Алюминиевый: конец 2008; белый: начало 2009 и новее"
           },
           {
-            "family" : "iMac",
-            "models" : "Середина 2007–2016"
+            "family": "iMac",
+            "models": "Середина 2007–2016"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Начало 2009 и новее"
+            "family": "Mac mini",
+            "models": "Начало 2009 и новее"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "Начало 2008 и новее; для El Capitan также 2007"
+            "family": "Mac Pro",
+            "models": "Начало 2008 и новее; для El Capitan также 2007"
           },
           {
-            "family" : "Xserve",
-            "models" : "Начало 2009"
+            "family": "Xserve",
+            "models": "Начало 2009"
           }
         ],
-        "note" : "Поддерживаются перечисленные поколения Intel Mac, выпущенные до следующей системы. MacBook Retina 12″ (2015) работает с Yosemite и El Capitan; модель 2016 — с El Capitan. Точная сборка зависит от модели.",
-        "reference" : "https://support.apple.com/111989"
+        "note": "Поддерживаются перечисленные поколения Intel Mac, выпущенные до следующей системы. MacBook Retina 12″ (2015) работает с Yosemite и El Capitan; модель 2016 — с El Capitan. Точная сборка зависит от модели.",
+        "reference": "https://support.apple.com/111989"
       },
-      "detail" : "Split View и обновленный Spotlight",
-      "family" : "OS X",
-      "finalVersion" : "10.11.6",
-      "id" : "10.11",
-      "installerMedia" : "InstallMacOSX.dmg",
-      "isModern" : false,
-      "marketingName" : "El Capitan",
-      "number" : "10.11",
-      "overview" : "El Capitan улучшает скорость и удобство Yosemite: Split View, обновлённый Mission Control, поиск Spotlight и графическая технология Metal.",
-      "sources" : [
+      "detail": "Split View и обновленный Spotlight",
+      "family": "OS X",
+      "finalVersion": "10.11.6",
+      "id": "10.11",
+      "installerMedia": "InstallMacOSX.dmg",
+      "isModern": false,
+      "marketingName": "El Capitan",
+      "number": "10.11",
+      "overview": "El Capitan улучшает скорость и удобство Yosemite: Split View, обновлённый Mission Control, поиск Spotlight и графическая технология Metal.",
+      "sources": [
         {
-          "id" : "image-10.11",
-          "kind" : "appleImage",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "DMG · установочный носитель",
-          "title" : "Образ с серверов Apple",
-          "url" : "https://updates-http.cdn-apple.com/2019/cert/061-41424-20191024-218af9ec-cf50-4516-9011-228c78eda3d2/InstallMacOSX.dmg"
+          "id": "image-10.11",
+          "kind": "appleImage",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "DMG · установочный носитель",
+          "title": "Образ с серверов Apple",
+          "url": "https://updates-http.cdn-apple.com/2019/cert/061-41424-20191024-218af9ec-cf50-4516-9011-228c78eda3d2/InstallMacOSX.dmg"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.11.jpg",
-      "year" : 2015
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.11.jpg",
+      "year": 2015
     },
     {
-      "architecture" : "Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Середина / конец 2007–2015"
+            "family": "MacBook Pro",
+            "models": "Середина / конец 2007–2015"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Конец 2008–2015"
+            "family": "MacBook Air",
+            "models": "Конец 2008–2015"
           },
           {
-            "family" : "MacBook",
-            "models" : "Алюминиевый: конец 2008; белый: начало 2009 и новее"
+            "family": "MacBook",
+            "models": "Алюминиевый: конец 2008; белый: начало 2009 и новее"
           },
           {
-            "family" : "iMac",
-            "models" : "Середина 2007–2015"
+            "family": "iMac",
+            "models": "Середина 2007–2015"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Начало 2009 и новее"
+            "family": "Mac mini",
+            "models": "Начало 2009 и новее"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "Начало 2008 и новее; для El Capitan также 2007"
+            "family": "Mac Pro",
+            "models": "Начало 2008 и новее; для El Capitan также 2007"
           },
           {
-            "family" : "Xserve",
-            "models" : "Начало 2009"
+            "family": "Xserve",
+            "models": "Начало 2009"
           }
         ],
-        "note" : "Поддерживаются перечисленные поколения Intel Mac, выпущенные до следующей системы. MacBook Retina 12″ (2015) работает с Yosemite и El Capitan; модель 2016 — с El Capitan. Точная сборка зависит от модели.",
-        "reference" : "https://support.apple.com/111991"
+        "note": "Поддерживаются перечисленные поколения Intel Mac, выпущенные до следующей системы. MacBook Retina 12″ (2015) работает с Yosemite и El Capitan; модель 2016 — с El Capitan. Точная сборка зависит от модели.",
+        "reference": "https://support.apple.com/111991"
       },
-      "detail" : "Обновленный интерфейс и Continuity",
-      "family" : "OS X",
-      "finalVersion" : "10.10.5",
-      "id" : "10.10",
-      "installerMedia" : "InstallMacOSX.dmg",
-      "isModern" : false,
-      "marketingName" : "Yosemite",
-      "number" : "10.10",
-      "overview" : "Yosemite меняет оформление OS X и объединяет Mac с iPhone через Continuity, Handoff и звонки с компьютера.",
-      "sources" : [
+      "detail": "Обновленный интерфейс и Continuity",
+      "family": "OS X",
+      "finalVersion": "10.10.5",
+      "id": "10.10",
+      "installerMedia": "InstallMacOSX.dmg",
+      "isModern": false,
+      "marketingName": "Yosemite",
+      "number": "10.10",
+      "overview": "Yosemite меняет оформление OS X и объединяет Mac с iPhone через Continuity, Handoff и звонки с компьютера.",
+      "sources": [
         {
-          "id" : "image-10.10",
-          "kind" : "appleImage",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "DMG · установочный носитель",
-          "title" : "Образ с серверов Apple",
-          "url" : "https://updates-http.cdn-apple.com/2019/cert/061-41343-20191023-02465f92-3ab5-4c92-bfe2-b725447a070d/InstallMacOSX.dmg"
+          "id": "image-10.10",
+          "kind": "appleImage",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "DMG · установочный носитель",
+          "title": "Образ с серверов Apple",
+          "url": "https://updates-http.cdn-apple.com/2019/cert/061-41343-20191023-02465f92-3ab5-4c92-bfe2-b725447a070d/InstallMacOSX.dmg"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.10.jpg",
-      "year" : 2014
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.10.jpg",
+      "year": 2014
     },
     {
-      "architecture" : "Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Середина / конец 2007–2014"
+            "family": "MacBook Pro",
+            "models": "Середина / конец 2007–2014"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Конец 2008–2014"
+            "family": "MacBook Air",
+            "models": "Конец 2008–2014"
           },
           {
-            "family" : "MacBook",
-            "models" : "Алюминиевый: конец 2008; белый: начало 2009 и новее"
+            "family": "MacBook",
+            "models": "Алюминиевый: конец 2008; белый: начало 2009 и новее"
           },
           {
-            "family" : "iMac",
-            "models" : "Середина 2007–2014"
+            "family": "iMac",
+            "models": "Середина 2007–2014"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Начало 2009 и новее"
+            "family": "Mac mini",
+            "models": "Начало 2009 и новее"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "Начало 2008 и новее; для El Capitan также 2007"
+            "family": "Mac Pro",
+            "models": "Начало 2008 и новее; для El Capitan также 2007"
           },
           {
-            "family" : "Xserve",
-            "models" : "Начало 2009"
+            "family": "Xserve",
+            "models": "Начало 2009"
           }
         ],
-        "note" : "Поддерживаются перечисленные поколения Intel Mac, выпущенные до следующей системы. MacBook Retina 12″ (2015) работает с Yosemite и El Capitan; модель 2016 — с El Capitan. Точная сборка зависит от модели.",
-        "reference" : "https://support.apple.com/111960"
+        "note": "Поддерживаются перечисленные поколения Intel Mac, выпущенные до следующей системы. MacBook Retina 12″ (2015) работает с Yosemite и El Capitan; модель 2016 — с El Capitan. Точная сборка зависит от модели.",
+        "reference": "https://support.apple.com/111960"
       },
-      "detail" : "Первая бесплатная версия OS X",
-      "family" : "OS X",
-      "finalVersion" : "10.9.5",
-      "id" : "10.9",
-      "installerMedia" : "ISO · полный установщик 10.9.5",
-      "isModern" : false,
-      "marketingName" : "Mavericks",
-      "number" : "10.9",
-      "overview" : "Mavericks становится первой бесплатной версией OS X. В системе появляются Карты, iBooks, вкладки Finder и технологии экономии энергии.",
-      "sources" : [
+      "detail": "Первая бесплатная версия OS X",
+      "family": "OS X",
+      "finalVersion": "10.9.5",
+      "id": "10.9",
+      "installerMedia": "ISO · полный установщик 10.9.5",
+      "isModern": false,
+      "marketingName": "Mavericks",
+      "number": "10.9",
+      "overview": "Mavericks становится первой бесплатной версией OS X. В системе появляются Карты, iBooks, вкладки Finder и технологии экономии энергии.",
+      "sources": [
         {
-          "id" : "mavericks-iso",
-          "kind" : "archive",
-          "packages" : [
+          "id": "mavericks-iso",
+          "kind": "archive",
+          "packages": [
             {
-              "architecture" : "Intel",
-              "files" : [
+              "architecture": "Intel",
+              "files": [
                 "OS X Mavericks 10.9.5.iso"
               ],
-              "id" : "mavericks-iso",
-              "itemID" : "os-x-mavericks-10.9.5",
-              "mediaVersion" : "10.9.5 · 13F34",
-              "sizeHint" : "6.1 GB",
-              "sourceNote" : "Образ загружен в Internet Archive пользователем MrMacintoshBlog. В сопровождающем материале автор указывает, что сделал его со своей копии, загруженной с Apple в 2015 году.",
-              "title" : "Retail ISO · Intel"
+              "id": "mavericks-iso",
+              "itemID": "os-x-mavericks-10.9.5",
+              "mediaVersion": "10.9.5 · 13F34",
+              "sizeHint": "6.1 GB",
+              "sourceNote": "Образ загружен в Internet Archive пользователем MrMacintoshBlog. В сопровождающем материале автор указывает, что сделал его со своей копии, загруженной с Apple в 2015 году.",
+              "title": "Retail ISO · Intel"
             }
           ],
-          "reference" : "https://archive.org/details/os-x-mavericks-10.9.5",
-          "subtitle" : "10.9.5 · 13F34 · Intel · 6.1 GB",
-          "title" : "Retail ISO · Intel"
+          "reference": "https://archive.org/details/os-x-mavericks-10.9.5",
+          "subtitle": "10.9.5 · 13F34 · Intel · 6.1 GB",
+          "title": "Retail ISO · Intel"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.9.jpg",
-      "year" : 2013
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.9.jpg",
+      "year": 2013
     },
     {
-      "architecture" : "Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Середина / конец 2007–2013"
+            "family": "MacBook Pro",
+            "models": "Середина / конец 2007–2013"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "Конец 2008–2013"
+            "family": "MacBook Air",
+            "models": "Конец 2008–2013"
           },
           {
-            "family" : "MacBook",
-            "models" : "Алюминиевый: конец 2008; белый: начало 2009 и новее"
+            "family": "MacBook",
+            "models": "Алюминиевый: конец 2008; белый: начало 2009 и новее"
           },
           {
-            "family" : "iMac",
-            "models" : "Середина 2007–2013"
+            "family": "iMac",
+            "models": "Середина 2007–2013"
           },
           {
-            "family" : "Mac mini",
-            "models" : "Начало 2009 и новее"
+            "family": "Mac mini",
+            "models": "Начало 2009 и новее"
           },
           {
-            "family" : "Mac Pro",
-            "models" : "Начало 2008 и новее; для El Capitan также 2007"
+            "family": "Mac Pro",
+            "models": "Начало 2008 и новее; для El Capitan также 2007"
           },
           {
-            "family" : "Xserve",
-            "models" : "Начало 2009"
+            "family": "Xserve",
+            "models": "Начало 2009"
           }
         ],
-        "note" : "Поддерживаются перечисленные поколения Intel Mac, выпущенные до следующей системы. MacBook Retina 12″ (2015) работает с Yosemite и El Capitan; модель 2016 — с El Capitan. Точная сборка зависит от модели.",
-        "reference" : "https://support.apple.com/112002"
+        "note": "Поддерживаются перечисленные поколения Intel Mac, выпущенные до следующей системы. MacBook Retina 12″ (2015) работает с Yosemite и El Capitan; модель 2016 — с El Capitan. Точная сборка зависит от модели.",
+        "reference": "https://support.apple.com/112002"
       },
-      "detail" : "Центр уведомлений пришел на Mac",
-      "family" : "OS X",
-      "finalVersion" : "10.8.5",
-      "id" : "10.8",
-      "installerMedia" : "InstallMacOSX.dmg",
-      "isModern" : false,
-      "marketingName" : "Mountain Lion",
-      "number" : "10.8",
-      "overview" : "Mountain Lion добавляет Центр уведомлений, Сообщения, Напоминания и более тесную интеграцию с iCloud.",
-      "sources" : [
+      "detail": "Центр уведомлений пришел на Mac",
+      "family": "OS X",
+      "finalVersion": "10.8.5",
+      "id": "10.8",
+      "installerMedia": "InstallMacOSX.dmg",
+      "isModern": false,
+      "marketingName": "Mountain Lion",
+      "number": "10.8",
+      "overview": "Mountain Lion добавляет Центр уведомлений, Сообщения, Напоминания и более тесную интеграцию с iCloud.",
+      "sources": [
         {
-          "id" : "image-10.8",
-          "kind" : "appleImage",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "DMG · установочный носитель",
-          "title" : "Образ с серверов Apple",
-          "url" : "https://updates.cdn-apple.com/2021/macos/031-0627-20210614-90D11F33-1A65-42DD-BBEA-E1D9F43A6B3F/InstallMacOSX.dmg"
+          "id": "image-10.8",
+          "kind": "appleImage",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "DMG · установочный носитель",
+          "title": "Образ с серверов Apple",
+          "url": "https://updates.cdn-apple.com/2021/macos/031-0627-20210614-90D11F33-1A65-42DD-BBEA-E1D9F43A6B3F/InstallMacOSX.dmg"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.8.jpg",
-      "year" : 2012
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.8.jpg",
+      "year": 2012
     },
     {
-      "architecture" : "Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Конец 2006–середина 2012, Core 2 Duo / Core i5 / Core i7"
+            "family": "MacBook Pro",
+            "models": "Конец 2006–середина 2012, Core 2 Duo / Core i5 / Core i7"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "2008–середина 2012"
+            "family": "MacBook Air",
+            "models": "2008–середина 2012"
           },
           {
-            "family" : "MacBook",
-            "models" : "Конец 2006–2010, Core 2 Duo"
+            "family": "MacBook",
+            "models": "Конец 2006–2010, Core 2 Duo"
           },
           {
-            "family" : "Другие Intel Mac",
-            "models" : "Core 2 Duo, Core i3/i5/i7 или Xeon; модели, поставлявшиеся с Lion или более ранней системой"
+            "family": "Другие Intel Mac",
+            "models": "Core 2 Duo, Core i3/i5/i7 или Xeon; модели, поставлявшиеся с Lion или более ранней системой"
           }
         ],
-        "note" : "Lion требует 64-битный процессор Intel и 2 ГБ памяти. Первые MacBook и MacBook Pro с Core Duo, а также PowerPC Mac не поддерживаются.",
-        "reference" : "https://support.apple.com/112035"
+        "note": "Lion требует 64-битный процессор Intel и 2 ГБ памяти. Первые MacBook и MacBook Pro с Core Duo, а также PowerPC Mac не поддерживаются.",
+        "reference": "https://support.apple.com/112035"
       },
-      "detail" : "Жесты Multi-Touch и Launchpad",
-      "family" : "OS X",
-      "finalVersion" : "10.7.5",
-      "id" : "10.7",
-      "installerMedia" : "InstallMacOSX.dmg",
-      "isModern" : false,
-      "marketingName" : "Lion",
-      "number" : "10.7",
-      "overview" : "Lion приносит Launchpad, Mission Control, полноэкранные приложения и новые жесты Multi-Touch. PowerPC-приложения через Rosetta больше не запускаются.",
-      "sources" : [
+      "detail": "Жесты Multi-Touch и Launchpad",
+      "family": "OS X",
+      "finalVersion": "10.7.5",
+      "id": "10.7",
+      "installerMedia": "InstallMacOSX.dmg",
+      "isModern": false,
+      "marketingName": "Lion",
+      "number": "10.7",
+      "overview": "Lion приносит Launchpad, Mission Control, полноэкранные приложения и новые жесты Multi-Touch. PowerPC-приложения через Rosetta больше не запускаются.",
+      "sources": [
         {
-          "id" : "image-10.7",
-          "kind" : "appleImage",
-          "reference" : "https://support.apple.com/102662",
-          "subtitle" : "DMG · установочный носитель",
-          "title" : "Образ с серверов Apple",
-          "url" : "https://updates.cdn-apple.com/2021/macos/041-7683-20210614-E610947E-C7CE-46EB-8860-D26D71F0D3EA/InstallMacOSX.dmg"
+          "id": "image-10.7",
+          "kind": "appleImage",
+          "reference": "https://support.apple.com/102662",
+          "subtitle": "DMG · установочный носитель",
+          "title": "Образ с серверов Apple",
+          "url": "https://updates.cdn-apple.com/2021/macos/041-7683-20210614-E610947E-C7CE-46EB-8860-D26D71F0D3EA/InstallMacOSX.dmg"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.7.jpg",
-      "year" : 2011
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.7.jpg",
+      "year": 2011
     },
     {
-      "architecture" : "Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "2006–начало 2011"
+            "family": "MacBook Pro",
+            "models": "2006–начало 2011"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "2008–конец 2010"
+            "family": "MacBook Air",
+            "models": "2008–конец 2010"
           },
           {
-            "family" : "MacBook",
-            "models" : "2006–2010"
+            "family": "MacBook",
+            "models": "2006–2010"
           },
           {
-            "family" : "Другие Intel Mac",
-            "models" : "Intel iMac, Mac mini, Mac Pro и Xserve, выпущенные до Lion"
+            "family": "Другие Intel Mac",
+            "models": "Intel iMac, Mac mini, Mac Pro и Xserve, выпущенные до Lion"
           }
         ],
-        "note" : "Snow Leopard требует Intel Mac и 1 ГБ памяти. PowerPC и Apple silicon не поддерживаются. Для моделей 2010–2011 нужен подходящий диск / обновление; Retail 10.6.3 подходит не всем.",
-        "reference" : "https://support.apple.com/112016"
+        "note": "Snow Leopard требует Intel Mac и 1 ГБ памяти. PowerPC и Apple silicon не поддерживаются. Для моделей 2010–2011 нужен подходящий диск / обновление; Retail 10.6.3 подходит не всем.",
+        "reference": "https://support.apple.com/112016"
       },
-      "detail" : "Оптимизация и переход на 64-битную архитектуру",
-      "family" : "Mac OS X",
-      "finalVersion" : "10.6.8",
-      "id" : "10.6",
-      "installerMedia" : "Retail DVD · ISO",
-      "isModern" : false,
-      "marketingName" : "Snow Leopard",
-      "number" : "10.6",
-      "overview" : "Snow Leopard сосредоточена на производительности, 64-битных технологиях и Grand Central Dispatch. Это первая Mac OS X, предназначенная только для Intel Mac.",
-      "sources" : [
+      "detail": "Оптимизация и переход на 64-битную архитектуру",
+      "family": "Mac OS X",
+      "finalVersion": "10.6.8",
+      "id": "10.6",
+      "installerMedia": "Retail DVD · ISO",
+      "isModern": false,
+      "marketingName": "Snow Leopard",
+      "number": "10.6",
+      "overview": "Snow Leopard сосредоточена на производительности, 64-битных технологиях и Grand Central Dispatch. Это первая Mac OS X, предназначенная только для Intel Mac.",
+      "sources": [
         {
-          "id" : "snow-leopard-retail",
-          "kind" : "archive",
-          "packages" : [
+          "id": "snow-leopard-retail",
+          "kind": "archive",
+          "packages": [
             {
-              "architecture" : "Intel",
-              "files" : [
+              "architecture": "Intel",
+              "files": [
                 "Mac_OS_X_10.6_Snow_Leopard_Retail.iso"
               ],
-              "id" : "snow-leopard-retail",
-              "itemID" : "mac-os-x-10.6-snow-leopard-retail",
-              "mediaVersion" : "10.6.0 · 10A432",
-              "sizeHint" : "7.2 GB",
-              "sourceNote" : "Архивная копия розничного установочного DVD в коллекции Internet Archive. После установки можно обновить систему до 10.6.8.",
-              "title" : "Retail DVD · Intel"
+              "id": "snow-leopard-retail",
+              "itemID": "mac-os-x-10.6-snow-leopard-retail",
+              "mediaVersion": "10.6.0 · 10A432",
+              "sizeHint": "7.2 GB",
+              "sourceNote": "Архивная копия розничного установочного DVD в коллекции Internet Archive. После установки можно обновить систему до 10.6.8.",
+              "title": "Retail DVD · Intel"
             }
           ],
-          "reference" : "https://archive.org/details/mac-os-x-10.6-snow-leopard-retail",
-          "subtitle" : "10.6.0 · 10A432 · Intel · 7.2 GB",
-          "title" : "Retail DVD · Intel"
+          "reference": "https://archive.org/details/mac-os-x-10.6-snow-leopard-retail",
+          "subtitle": "10.6.0 · 10A432 · Intel · 7.2 GB",
+          "title": "Retail DVD · Intel"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.6.jpg",
-      "year" : 2009
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.6.jpg",
+      "year": 2009
     },
     {
-      "architecture" : "PowerPC и Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "PowerPC и Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "2006–2009"
+            "family": "MacBook Pro",
+            "models": "2006–2009"
           },
           {
-            "family" : "MacBook Air",
-            "models" : "2008–середина 2009"
+            "family": "MacBook Air",
+            "models": "2008–середина 2009"
           },
           {
-            "family" : "MacBook",
-            "models" : "2006–середина 2009"
+            "family": "MacBook",
+            "models": "2006–середина 2009"
           },
           {
-            "family" : "PowerBook / iBook",
-            "models" : "G4 от 867 МГц"
+            "family": "PowerBook / iBook",
+            "models": "G4 от 867 МГц"
           },
           {
-            "family" : "Другие Mac",
-            "models" : "PowerPC G4 от 867 МГц, G5 или Intel; модели до Snow Leopard"
+            "family": "Другие Mac",
+            "models": "PowerPC G4 от 867 МГц, G5 или Intel; модели до Snow Leopard"
           }
         ],
-        "note" : "Leopard требует 512 МБ памяти. Последняя версия Mac OS X для PowerPC. Для новых моделей эпохи Leopard может потребоваться модельный диск.",
-        "reference" : "https://support.apple.com/112015"
+        "note": "Leopard требует 512 МБ памяти. Последняя версия Mac OS X для PowerPC. Для новых моделей эпохи Leopard может потребоваться модельный диск.",
+        "reference": "https://support.apple.com/112015"
       },
-      "detail" : "Time Machine и обновленный Finder",
-      "family" : "Mac OS X",
-      "finalVersion" : "10.5.8",
-      "id" : "10.5",
-      "installerMedia" : "Retail DVD · DMG",
-      "isModern" : false,
-      "marketingName" : "Leopard",
-      "number" : "10.5",
-      "overview" : "Leopard представляет Time Machine, Spaces, Quick Look и новый Dock. Это последняя Mac OS X, которая работает и на PowerPC, и на Intel.",
-      "sources" : [
+      "detail": "Time Machine и обновленный Finder",
+      "family": "Mac OS X",
+      "finalVersion": "10.5.8",
+      "id": "10.5",
+      "installerMedia": "Retail DVD · DMG",
+      "isModern": false,
+      "marketingName": "Leopard",
+      "number": "10.5",
+      "overview": "Leopard представляет Time Machine, Spaces, Quick Look и новый Dock. Это последняя Mac OS X, которая работает и на PowerPC, и на Intel.",
+      "sources": [
         {
-          "id" : "leopard-retail",
-          "kind" : "archive",
-          "packages" : [
+          "id": "leopard-retail",
+          "kind": "archive",
+          "packages": [
             {
-              "architecture" : "PowerPC и Intel",
-              "files" : [
+              "architecture": "PowerPC и Intel",
+              "files": [
                 "leopard_9a581_userdvd.dmg"
               ],
-              "id" : "leopard-retail",
-              "itemID" : "gcpd-apple_macosxleopard_9a581_dvd",
-              "mediaVersion" : "10.5.0 · Build 9A581",
-              "sizeHint" : "6.7 GB",
-              "sourceNote" : "Архивная копия retail DVD Build 9A581. В описании Internet Archive сборка указана как совпадающая с финальным коммерческим релизом.",
-              "title" : "Retail DVD · Universal"
+              "id": "leopard-retail",
+              "itemID": "gcpd-apple_macosxleopard_9a581_dvd",
+              "mediaVersion": "10.5.0 · Build 9A581",
+              "sizeHint": "6.7 GB",
+              "sourceNote": "Архивная копия retail DVD Build 9A581. В описании Internet Archive сборка указана как совпадающая с финальным коммерческим релизом.",
+              "title": "Retail DVD · Universal"
             }
           ],
-          "reference" : "https://archive.org/details/gcpd-apple_macosxleopard_9a581_dvd",
-          "subtitle" : "10.5.0 · Build 9A581 · PowerPC и Intel · 6.7 GB",
-          "title" : "Retail DVD · Universal"
+          "reference": "https://archive.org/details/gcpd-apple_macosxleopard_9a581_dvd",
+          "subtitle": "10.5.0 · Build 9A581 · PowerPC и Intel · 6.7 GB",
+          "title": "Retail DVD · Universal"
         },
         {
-          "id" : "repository-10.5",
-          "kind" : "webPage",
-          "provider" : "Macintosh Repository",
-          "reference" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
-          "subtitle" : "Установочные носители и обновления · контрольные суммы на странице",
-          "title" : "Macintosh Repository · коллекция",
-          "url" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
+          "id": "repository-10.5",
+          "kind": "webPage",
+          "provider": "Macintosh Repository",
+          "reference": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
+          "subtitle": "Установочные носители и обновления · контрольные суммы на странице",
+          "title": "Macintosh Repository · коллекция",
+          "url": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
         },
         {
-          "id" : "repository-leopard",
-          "kind" : "webPage",
-          "provider" : "Macintosh Repository",
-          "reference" : "https://www.macintoshrepository.org/69923-leopard-10-5-6-retail-installer-image",
-          "subtitle" : "Leopard 10.5.6 · PowerPC и Intel · SHA‑1 на странице",
-          "title" : "Macintosh Repository · Retail DVD",
-          "url" : "https://www.macintoshrepository.org/69923-leopard-10-5-6-retail-installer-image"
+          "id": "repository-leopard",
+          "kind": "webPage",
+          "provider": "Macintosh Repository",
+          "reference": "https://www.macintoshrepository.org/69923-leopard-10-5-6-retail-installer-image",
+          "subtitle": "Leopard 10.5.6 · PowerPC и Intel · SHA‑1 на странице",
+          "title": "Macintosh Repository · Retail DVD",
+          "url": "https://www.macintoshrepository.org/69923-leopard-10-5-6-retail-installer-image"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.5.jpg",
-      "year" : 2007
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.5.jpg",
+      "year": 2007
     },
     {
-      "architecture" : "PowerPC или Intel",
-      "compatibility" : {
-        "models" : [
+      "architecture": "PowerPC или Intel",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook Pro",
-            "models" : "Intel, 2006–середина 2007: только соответствующий модельный диск"
+            "family": "MacBook Pro",
+            "models": "Intel, 2006–середина 2007: только соответствующий модельный диск"
           },
           {
-            "family" : "MacBook",
-            "models" : "Intel, 2006–середина 2007: только соответствующий модельный диск"
+            "family": "MacBook",
+            "models": "Intel, 2006–середина 2007: только соответствующий модельный диск"
           },
           {
-            "family" : "PowerBook / iBook",
-            "models" : "Совместимые G3 / G4 с встроенным FireWire"
+            "family": "PowerBook / iBook",
+            "models": "Совместимые G3 / G4 с встроенным FireWire"
           },
           {
-            "family" : "Другие Mac",
-            "models" : "PowerPC G3 / G4 / G5 с встроенным FireWire; Intel — с диском для своей модели"
+            "family": "Другие Mac",
+            "models": "PowerPC G3 / G4 / G5 с встроенным FireWire; Intel — с диском для своей модели"
           }
         ],
-        "note" : "Retail-образ Tiger предназначен для PowerPC. Для Intel Mac нужен оригинальный модельный установщик. MacBook Air появился после Tiger и не поддерживается.",
-        "reference" : "https://support.apple.com/112014"
+        "note": "Retail-образ Tiger предназначен для PowerPC. Для Intel Mac нужен оригинальный модельный установщик. MacBook Air появился после Tiger и не поддерживается.",
+        "reference": "https://support.apple.com/112014"
       },
-      "detail" : "Spotlight и Dashboard",
-      "family" : "Mac OS X",
-      "finalVersion" : "10.4.11",
-      "id" : "10.4",
-      "installerMedia" : "Retail DVD · ISO",
-      "isModern" : false,
-      "marketingName" : "Tiger",
-      "number" : "10.4",
-      "overview" : "Tiger добавляет Spotlight, Dashboard и Automator. Retail-диски рассчитаны на PowerPC; первые Intel Mac поставлялись с отдельными модельными установщиками.",
-      "sources" : [
+      "detail": "Spotlight и Dashboard",
+      "family": "Mac OS X",
+      "finalVersion": "10.4.11",
+      "id": "10.4",
+      "installerMedia": "Retail DVD · ISO",
+      "isModern": false,
+      "marketingName": "Tiger",
+      "number": "10.4",
+      "overview": "Tiger добавляет Spotlight, Dashboard и Automator. Retail-диски рассчитаны на PowerPC; первые Intel Mac поставлялись с отдельными модельными установщиками.",
+      "sources": [
         {
-          "id" : "tiger-ppc",
-          "kind" : "archive",
-          "packages" : [
+          "id": "tiger-ppc",
+          "kind": "archive",
+          "packages": [
             {
-              "architecture" : "PowerPC",
-              "files" : [
+              "architecture": "PowerPC",
+              "files": [
                 "Mac OS X 10.4 Tiger Retail DVD.iso"
               ],
-              "id" : "tiger-ppc",
-              "itemID" : "mac-os-x-10.4-tiger-retail-dvd",
-              "mediaVersion" : "10.4.0",
-              "sizeHint" : "3.6 GB",
-              "sourceNote" : "Архивный образ retail DVD для PowerPC. Версия файла и конфигурация носителя проверяются по манифесту Internet Archive перед сохранением.",
-              "title" : "Retail DVD · PowerPC"
+              "id": "tiger-ppc",
+              "itemID": "mac-os-x-10.4-tiger-retail-dvd",
+              "mediaVersion": "10.4.0",
+              "sizeHint": "3.6 GB",
+              "sourceNote": "Архивный образ retail DVD для PowerPC. Версия файла и конфигурация носителя проверяются по манифесту Internet Archive перед сохранением.",
+              "title": "Retail DVD · PowerPC"
             }
           ],
-          "reference" : "https://archive.org/details/mac-os-x-10.4-tiger-retail-dvd",
-          "subtitle" : "10.4.0 · PowerPC · 3.6 GB",
-          "title" : "Retail DVD · PowerPC"
+          "reference": "https://archive.org/details/mac-os-x-10.4-tiger-retail-dvd",
+          "subtitle": "10.4.0 · PowerPC · 3.6 GB",
+          "title": "Retail DVD · PowerPC"
         },
         {
-          "id" : "tiger-intel",
-          "kind" : "archive",
-          "packages" : [
+          "id": "tiger-intel",
+          "kind": "archive",
+          "packages": [
             {
-              "architecture" : "Intel",
-              "files" : [
+              "architecture": "Intel",
+              "files": [
                 "Mac OS X 10.4 Tiger.iso"
               ],
-              "id" : "tiger-intel",
-              "itemID" : "macosxtiger",
-              "mediaVersion" : "10.4.x",
-              "sizeHint" : "4.4 GB",
-              "sourceNote" : "Архивный установочный образ для Intel. В Internet Archive он описан как Mac OS X 10.4.6 Tiger Retail Install DVD; перепроверьте совместимость с моделью Mac.",
-              "title" : "Intel DVD image"
+              "id": "tiger-intel",
+              "itemID": "macosxtiger",
+              "mediaVersion": "10.4.x",
+              "sizeHint": "4.4 GB",
+              "sourceNote": "Архивный установочный образ для Intel. В Internet Archive он описан как Mac OS X 10.4.6 Tiger Retail Install DVD; перепроверьте совместимость с моделью Mac.",
+              "title": "Intel DVD image"
             }
           ],
-          "reference" : "https://archive.org/details/macosxtiger",
-          "subtitle" : "10.4.x · Intel · 4.4 GB",
-          "title" : "Intel DVD image"
+          "reference": "https://archive.org/details/macosxtiger",
+          "subtitle": "10.4.x · Intel · 4.4 GB",
+          "title": "Intel DVD image"
         },
         {
-          "id" : "repository-10.4",
-          "kind" : "webPage",
-          "provider" : "Macintosh Repository",
-          "reference" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
-          "subtitle" : "Установочные носители и обновления · контрольные суммы на странице",
-          "title" : "Macintosh Repository · коллекция",
-          "url" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
+          "id": "repository-10.4",
+          "kind": "webPage",
+          "provider": "Macintosh Repository",
+          "reference": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
+          "subtitle": "Установочные носители и обновления · контрольные суммы на странице",
+          "title": "Macintosh Repository · коллекция",
+          "url": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.4.jpg",
-      "year" : 2005
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.4.jpg",
+      "year": 2005
     },
     {
-      "architecture" : "PowerPC",
-      "compatibility" : {
-        "models" : [
+      "architecture": "PowerPC",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook / Pro / Air",
-            "models" : "Не поддерживаются: эти системы вышли до перехода на Intel"
+            "family": "MacBook / Pro / Air",
+            "models": "Не поддерживаются: эти системы вышли до перехода на Intel"
           },
           {
-            "family" : "PowerBook / iBook",
-            "models" : "Совместимые PowerPC G3 / G4"
+            "family": "PowerBook / iBook",
+            "models": "Совместимые PowerPC G3 / G4"
           },
           {
-            "family" : "Другие Mac",
-            "models" : "PowerPC G3 / G4 / G5 с встроенным USB; Beige G3 и PowerBook G3 Kanga не поддерживаются"
+            "family": "Другие Mac",
+            "models": "PowerPC G3 / G4 / G5 с встроенным USB; Beige G3 и PowerBook G3 Kanga не поддерживаются"
           }
         ],
-        "note" : "Это системы для PowerPC Mac. Для Jaguar модельные сборки также поддерживают ранний Power Mac G5. Сверяйте конкретный Mac и версию носителя: более новый компьютер не запускает более старую систему.",
-        "reference" : "https://support.apple.com/102662"
+        "note": "Это системы для PowerPC Mac. Для Jaguar модельные сборки также поддерживают ранний Power Mac G5. Сверяйте конкретный Mac и версию носителя: более новый компьютер не запускает более старую систему.",
+        "reference": "https://support.apple.com/102662"
       },
-      "detail" : "Exposé и быстрый поиск файлов",
-      "family" : "Mac OS X",
-      "finalVersion" : "10.3.9",
-      "id" : "10.3",
-      "installerMedia" : "Retail CD · 3 диска",
-      "isModern" : false,
-      "marketingName" : "Panther",
-      "number" : "10.3",
-      "overview" : "Panther приносит Exposé, быстрое переключение пользователей и FileVault. Система рассчитана на совместимые PowerPC Mac.",
-      "sources" : [
+      "detail": "Exposé и быстрый поиск файлов",
+      "family": "Mac OS X",
+      "finalVersion": "10.3.9",
+      "id": "10.3",
+      "installerMedia": "Retail CD · 3 диска",
+      "isModern": false,
+      "marketingName": "Panther",
+      "number": "10.3",
+      "overview": "Panther приносит Exposé, быстрое переключение пользователей и FileVault. Система рассчитана на совместимые PowerPC Mac.",
+      "sources": [
         {
-          "id" : "panther-retail",
-          "kind" : "archive",
-          "packages" : [
+          "id": "panther-retail",
+          "kind": "archive",
+          "packages": [
             {
-              "architecture" : "PowerPC",
-              "files" : [
+              "architecture": "PowerPC",
+              "files": [
                 "Apple Mac OS X 10.3.0 - Disk 1.iso",
                 "Apple Mac OS X 10.3.0 - Disk 2.iso",
                 "Apple Mac OS X 10.3.0 - Disk 3.iso"
               ],
-              "id" : "panther-retail",
-              "itemID" : "mac-os-x-panther-10.3",
-              "mediaVersion" : "10.3.0 · 3 discs",
-              "sizeHint" : "~2 GB",
-              "sourceNote" : "Трехдисковый установочный набор из коллекции Internet Archive. Это архивная копия; последующие обновления устанавливаются отдельно.",
-              "title" : "Retail CD set · PowerPC"
+              "id": "panther-retail",
+              "itemID": "mac-os-x-panther-10.3",
+              "mediaVersion": "10.3.0 · 3 discs",
+              "sizeHint": "~2 GB",
+              "sourceNote": "Трехдисковый установочный набор из коллекции Internet Archive. Это архивная копия; последующие обновления устанавливаются отдельно.",
+              "title": "Retail CD set · PowerPC"
             }
           ],
-          "reference" : "https://archive.org/details/mac-os-x-panther-10.3",
-          "subtitle" : "10.3.0 · 3 discs · PowerPC · ~2 GB",
-          "title" : "Retail CD set · PowerPC"
+          "reference": "https://archive.org/details/mac-os-x-panther-10.3",
+          "subtitle": "10.3.0 · 3 discs · PowerPC · ~2 GB",
+          "title": "Retail CD set · PowerPC"
         },
         {
-          "id" : "winworld-10.3",
-          "kind" : "webPage",
-          "provider" : "WinWorld",
-          "reference" : "https://winworldpc.com/product/mac-os-x/103",
-          "subtitle" : "Архив носителей · версии, архитектура и контрольные суммы",
-          "title" : "WinWorld",
-          "url" : "https://winworldpc.com/product/mac-os-x/103"
+          "id": "winworld-10.3",
+          "kind": "webPage",
+          "provider": "WinWorld",
+          "reference": "https://winworldpc.com/product/mac-os-x/103",
+          "subtitle": "Архив носителей · версии, архитектура и контрольные суммы",
+          "title": "WinWorld",
+          "url": "https://winworldpc.com/product/mac-os-x/103"
         },
         {
-          "id" : "repository-10.3",
-          "kind" : "webPage",
-          "provider" : "Macintosh Repository",
-          "reference" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
-          "subtitle" : "Установочные носители и обновления · контрольные суммы на странице",
-          "title" : "Macintosh Repository · коллекция",
-          "url" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
+          "id": "repository-10.3",
+          "kind": "webPage",
+          "provider": "Macintosh Repository",
+          "reference": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
+          "subtitle": "Установочные носители и обновления · контрольные суммы на странице",
+          "title": "Macintosh Repository · коллекция",
+          "url": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.3.jpg",
-      "year" : 2003
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.3.jpg",
+      "year": 2003
     },
     {
-      "architecture" : "PowerPC",
-      "compatibility" : {
-        "models" : [
+      "architecture": "PowerPC",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook / Pro / Air",
-            "models" : "Не поддерживаются: эти системы вышли до перехода на Intel"
+            "family": "MacBook / Pro / Air",
+            "models": "Не поддерживаются: эти системы вышли до перехода на Intel"
           },
           {
-            "family" : "PowerBook / iBook",
-            "models" : "Совместимые PowerPC G3 / G4"
+            "family": "PowerBook / iBook",
+            "models": "Совместимые PowerPC G3 / G4"
           },
           {
-            "family" : "Другие Mac",
-            "models" : "Совместимые PowerPC G3 / G4; Beige Power Mac G3 поддерживается, PowerBook G3 Kanga — нет"
+            "family": "Другие Mac",
+            "models": "Совместимые PowerPC G3 / G4; Beige Power Mac G3 поддерживается, PowerBook G3 Kanga — нет"
           }
         ],
-        "note" : "Это системы для PowerPC Mac. Для Jaguar модельные сборки также поддерживают ранний Power Mac G5. Сверяйте конкретный Mac и версию носителя: более новый компьютер не запускает более старую систему.",
-        "reference" : "https://support.apple.com/102662"
+        "note": "Это системы для PowerPC Mac. Для Jaguar модельные сборки также поддерживают ранний Power Mac G5. Сверяйте конкретный Mac и версию носителя: более новый компьютер не запускает более старую систему.",
+        "reference": "https://support.apple.com/102662"
       },
-      "detail" : "Quartz Extreme и iChat",
-      "family" : "Mac OS X",
-      "finalVersion" : "10.2.8",
-      "id" : "10.2",
-      "installerMedia" : "Retail CD · 2 диска",
-      "isModern" : false,
-      "marketingName" : "Jaguar",
-      "number" : "10.2",
-      "overview" : "Jaguar развивает интерфейс Aqua и добавляет Quartz Extreme, iChat, Адресную книгу и Rendezvous для обнаружения устройств в сети.",
-      "sources" : [
+      "detail": "Quartz Extreme и iChat",
+      "family": "Mac OS X",
+      "finalVersion": "10.2.8",
+      "id": "10.2",
+      "installerMedia": "Retail CD · 2 диска",
+      "isModern": false,
+      "marketingName": "Jaguar",
+      "number": "10.2",
+      "overview": "Jaguar развивает интерфейс Aqua и добавляет Quartz Extreme, iChat, Адресную книгу и Rendezvous для обнаружения устройств в сети.",
+      "sources": [
         {
-          "id" : "jaguar-retail",
-          "kind" : "archive",
-          "packages" : [
+          "id": "jaguar-retail",
+          "kind": "archive",
+          "packages": [
             {
-              "architecture" : "PowerPC",
-              "files" : [
+              "architecture": "PowerPC",
+              "files": [
                 "disk1.iso",
                 "disk2.iso"
               ],
-              "id" : "jaguar-retail",
-              "itemID" : "apple-mac-os-x-10.2.0-build-6c115",
-              "mediaVersion" : "10.2.0 · Build 6C115",
-              "sizeHint" : "~1.3 GB",
-              "sourceNote" : "Двухдисковый установочный набор Jaguar из Internet Archive. Сверяем загруженные файлы с SHA-1 манифестом архива.",
-              "title" : "Retail CD set · PowerPC"
+              "id": "jaguar-retail",
+              "itemID": "apple-mac-os-x-10.2.0-build-6c115",
+              "mediaVersion": "10.2.0 · Build 6C115",
+              "sizeHint": "~1.3 GB",
+              "sourceNote": "Двухдисковый установочный набор Jaguar из Internet Archive. Сверяем загруженные файлы с SHA-1 манифестом архива.",
+              "title": "Retail CD set · PowerPC"
             }
           ],
-          "reference" : "https://archive.org/details/apple-mac-os-x-10.2.0-build-6c115",
-          "subtitle" : "10.2.0 · Build 6C115 · PowerPC · ~1.3 GB",
-          "title" : "Retail CD set · PowerPC"
+          "reference": "https://archive.org/details/apple-mac-os-x-10.2.0-build-6c115",
+          "subtitle": "10.2.0 · Build 6C115 · PowerPC · ~1.3 GB",
+          "title": "Retail CD set · PowerPC"
         },
         {
-          "id" : "winworld-10.2",
-          "kind" : "webPage",
-          "provider" : "WinWorld",
-          "reference" : "https://winworldpc.com/product/mac-os-x/102",
-          "subtitle" : "Архив носителей · версии, архитектура и контрольные суммы",
-          "title" : "WinWorld",
-          "url" : "https://winworldpc.com/product/mac-os-x/102"
+          "id": "winworld-10.2",
+          "kind": "webPage",
+          "provider": "WinWorld",
+          "reference": "https://winworldpc.com/product/mac-os-x/102",
+          "subtitle": "Архив носителей · версии, архитектура и контрольные суммы",
+          "title": "WinWorld",
+          "url": "https://winworldpc.com/product/mac-os-x/102"
         },
         {
-          "id" : "repository-10.2",
-          "kind" : "webPage",
-          "provider" : "Macintosh Repository",
-          "reference" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
-          "subtitle" : "Установочные носители и обновления · контрольные суммы на странице",
-          "title" : "Macintosh Repository · коллекция",
-          "url" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
+          "id": "repository-10.2",
+          "kind": "webPage",
+          "provider": "Macintosh Repository",
+          "reference": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
+          "subtitle": "Установочные носители и обновления · контрольные суммы на странице",
+          "title": "Macintosh Repository · коллекция",
+          "url": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.2.jpg",
-      "year" : 2002
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.2.jpg",
+      "year": 2002
     },
     {
-      "architecture" : "PowerPC",
-      "compatibility" : {
-        "models" : [
+      "architecture": "PowerPC",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook / Pro / Air",
-            "models" : "Не поддерживаются: эти системы вышли до перехода на Intel"
+            "family": "MacBook / Pro / Air",
+            "models": "Не поддерживаются: эти системы вышли до перехода на Intel"
           },
           {
-            "family" : "PowerBook / iBook",
-            "models" : "Совместимые PowerPC G3 / G4"
+            "family": "PowerBook / iBook",
+            "models": "Совместимые PowerPC G3 / G4"
           },
           {
-            "family" : "Другие Mac",
-            "models" : "Совместимые PowerPC G3 / G4; Beige Power Mac G3 поддерживается, PowerBook G3 Kanga — нет"
+            "family": "Другие Mac",
+            "models": "Совместимые PowerPC G3 / G4; Beige Power Mac G3 поддерживается, PowerBook G3 Kanga — нет"
           }
         ],
-        "note" : "Это системы для PowerPC Mac. Для Jaguar модельные сборки также поддерживают ранний Power Mac G5. Сверяйте конкретный Mac и версию носителя: более новый компьютер не запускает более старую систему.",
-        "reference" : "https://support.apple.com/102662"
+        "note": "Это системы для PowerPC Mac. Для Jaguar модельные сборки также поддерживают ранний Power Mac G5. Сверяйте конкретный Mac и версию носителя: более новый компьютер не запускает более старую систему.",
+        "reference": "https://support.apple.com/102662"
       },
-      "detail" : "Второй крупный выпуск Mac OS X",
-      "family" : "Mac OS X",
-      "finalVersion" : "10.1.5",
-      "id" : "10.1",
-      "installerMedia" : "ISO · Retail build",
-      "isModern" : false,
-      "marketingName" : "Puma",
-      "number" : "10.1",
-      "overview" : "Puma улучшает производительность первого выпуска Mac OS X, расширяет поддержку устройств и добавляет воспроизведение DVD.",
-      "sources" : [
+      "detail": "Второй крупный выпуск Mac OS X",
+      "family": "Mac OS X",
+      "finalVersion": "10.1.5",
+      "id": "10.1",
+      "installerMedia": "ISO · Retail build",
+      "isModern": false,
+      "marketingName": "Puma",
+      "number": "10.1",
+      "overview": "Puma улучшает производительность первого выпуска Mac OS X, расширяет поддержку устройств и добавляет воспроизведение DVD.",
+      "sources": [
         {
-          "id" : "puma-retail",
-          "kind" : "archive",
-          "packages" : [
+          "id": "puma-retail",
+          "kind": "archive",
+          "packages": [
             {
-              "architecture" : "PowerPC",
-              "files" : [
+              "architecture": "PowerPC",
+              "files": [
                 "Mac OS X Puma Build 10.1.5G64/Mac OS X Puma.iso"
               ],
-              "id" : "puma-retail",
-              "itemID" : "mac-os-x-puma",
-              "mediaVersion" : "10.1.5 · Build 5G64",
-              "sizeHint" : "~600 MB",
-              "sourceNote" : "Архивный retail image для PowerPC. Источник и контрольная сумма берутся из метаданных соответствующего элемента Internet Archive перед загрузкой.",
-              "title" : "Retail image · PowerPC"
+              "id": "puma-retail",
+              "itemID": "mac-os-x-puma",
+              "mediaVersion": "10.1.5 · Build 5G64",
+              "sizeHint": "~600 MB",
+              "sourceNote": "Архивный retail image для PowerPC. Источник и контрольная сумма берутся из метаданных соответствующего элемента Internet Archive перед загрузкой.",
+              "title": "Retail image · PowerPC"
             }
           ],
-          "reference" : "https://archive.org/details/mac-os-x-puma",
-          "subtitle" : "10.1.5 · Build 5G64 · PowerPC · ~600 MB",
-          "title" : "Retail image · PowerPC"
+          "reference": "https://archive.org/details/mac-os-x-puma",
+          "subtitle": "10.1.5 · Build 5G64 · PowerPC · ~600 MB",
+          "title": "Retail image · PowerPC"
         },
         {
-          "id" : "winworld-10.1",
-          "kind" : "webPage",
-          "provider" : "WinWorld",
-          "reference" : "https://winworldpc.com/product/mac-os-x/101",
-          "subtitle" : "Архив носителей · версии, архитектура и контрольные суммы",
-          "title" : "WinWorld",
-          "url" : "https://winworldpc.com/product/mac-os-x/101"
+          "id": "winworld-10.1",
+          "kind": "webPage",
+          "provider": "WinWorld",
+          "reference": "https://winworldpc.com/product/mac-os-x/101",
+          "subtitle": "Архив носителей · версии, архитектура и контрольные суммы",
+          "title": "WinWorld",
+          "url": "https://winworldpc.com/product/mac-os-x/101"
         },
         {
-          "id" : "repository-puma",
-          "kind" : "webPage",
-          "provider" : "Macintosh Repository",
-          "reference" : "https://www.macintoshrepository.org/73481-mac-os-x-10-1-puma",
-          "subtitle" : "Puma 10.1 · Build 5G64 · PowerPC · SHA‑1 на странице",
-          "title" : "Macintosh Repository",
-          "url" : "https://www.macintoshrepository.org/73481-mac-os-x-10-1-puma"
+          "id": "repository-puma",
+          "kind": "webPage",
+          "provider": "Macintosh Repository",
+          "reference": "https://www.macintoshrepository.org/73481-mac-os-x-10-1-puma",
+          "subtitle": "Puma 10.1 · Build 5G64 · PowerPC · SHA‑1 на странице",
+          "title": "Macintosh Repository",
+          "url": "https://www.macintoshrepository.org/73481-mac-os-x-10-1-puma"
         },
         {
-          "id" : "repository-10.1",
-          "kind" : "webPage",
-          "provider" : "Macintosh Repository",
-          "reference" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
-          "subtitle" : "Установочные носители и обновления · контрольные суммы на странице",
-          "title" : "Macintosh Repository · коллекция",
-          "url" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
+          "id": "repository-10.1",
+          "kind": "webPage",
+          "provider": "Macintosh Repository",
+          "reference": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
+          "subtitle": "Установочные носители и обновления · контрольные суммы на странице",
+          "title": "Macintosh Repository · коллекция",
+          "url": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.1.jpg",
-      "year" : 2001
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.1.jpg",
+      "year": 2001
     },
     {
-      "architecture" : "PowerPC",
-      "compatibility" : {
-        "models" : [
+      "architecture": "PowerPC",
+      "compatibility": {
+        "models": [
           {
-            "family" : "MacBook / Pro / Air",
-            "models" : "Не поддерживаются: эти системы вышли до перехода на Intel"
+            "family": "MacBook / Pro / Air",
+            "models": "Не поддерживаются: эти системы вышли до перехода на Intel"
           },
           {
-            "family" : "PowerBook / iBook",
-            "models" : "Совместимые PowerPC G3 / G4"
+            "family": "PowerBook / iBook",
+            "models": "Совместимые PowerPC G3 / G4"
           },
           {
-            "family" : "Другие Mac",
-            "models" : "Совместимые PowerPC G3 / G4; Beige Power Mac G3 поддерживается, PowerBook G3 Kanga — нет"
+            "family": "Другие Mac",
+            "models": "Совместимые PowerPC G3 / G4; Beige Power Mac G3 поддерживается, PowerBook G3 Kanga — нет"
           }
         ],
-        "note" : "Это системы для PowerPC Mac. Для Jaguar модельные сборки также поддерживают ранний Power Mac G5. Сверяйте конкретный Mac и версию носителя: более новый компьютер не запускает более старую систему.",
-        "reference" : "https://support.apple.com/102662"
+        "note": "Это системы для PowerPC Mac. Для Jaguar модельные сборки также поддерживают ранний Power Mac G5. Сверяйте конкретный Mac и версию носителя: более новый компьютер не запускает более старую систему.",
+        "reference": "https://support.apple.com/102662"
       },
-      "detail" : "Первый публичный выпуск Mac OS X",
-      "family" : "Mac OS X",
-      "finalVersion" : "10.0.4",
-      "id" : "10.0",
-      "installerMedia" : "ISO · Retail CD",
-      "isModern" : false,
-      "marketingName" : "Cheetah",
-      "number" : "10.0",
-      "overview" : "Cheetah — первый публичный выпуск Mac OS X. Интерфейс Aqua, Dock и UNIX-основа заложили фундамент следующих поколений системы.",
-      "sources" : [
+      "detail": "Первый публичный выпуск Mac OS X",
+      "family": "Mac OS X",
+      "finalVersion": "10.0.4",
+      "id": "10.0",
+      "installerMedia": "ISO · Retail CD",
+      "isModern": false,
+      "marketingName": "Cheetah",
+      "number": "10.0",
+      "overview": "Cheetah — первый публичный выпуск Mac OS X. Интерфейс Aqua, Dock и UNIX-основа заложили фундамент следующих поколений системы.",
+      "sources": [
         {
-          "id" : "cheetah-retail",
-          "kind" : "archive",
-          "packages" : [
+          "id": "cheetah-retail",
+          "kind": "archive",
+          "packages": [
             {
-              "architecture" : "PowerPC",
-              "files" : [
+              "architecture": "PowerPC",
+              "files": [
                 "osx_100_4k78_install.iso"
               ],
-              "id" : "cheetah-retail",
-              "itemID" : "osx_100_4k78_install",
-              "mediaVersion" : "10.0 · Build 4K78",
-              "sizeHint" : "565 MB",
-              "sourceNote" : "Образ Mac OS X 10.0 для PowerPC в архивной коллекции Internet Archive. Эта система предназначена для исторического PowerPC-оборудования.",
-              "title" : "Install CD · PowerPC"
+              "id": "cheetah-retail",
+              "itemID": "osx_100_4k78_install",
+              "mediaVersion": "10.0 · Build 4K78",
+              "sizeHint": "565 MB",
+              "sourceNote": "Образ Mac OS X 10.0 для PowerPC в архивной коллекции Internet Archive. Эта система предназначена для исторического PowerPC-оборудования.",
+              "title": "Install CD · PowerPC"
             }
           ],
-          "reference" : "https://archive.org/details/osx_100_4k78_install",
-          "subtitle" : "10.0 · Build 4K78 · PowerPC · 565 MB",
-          "title" : "Install CD · PowerPC"
+          "reference": "https://archive.org/details/osx_100_4k78_install",
+          "subtitle": "10.0 · Build 4K78 · PowerPC · 565 MB",
+          "title": "Install CD · PowerPC"
         },
         {
-          "id" : "winworld-10.0",
-          "kind" : "webPage",
-          "provider" : "WinWorld",
-          "reference" : "https://winworldpc.com/product/mac-os-x/100",
-          "subtitle" : "Архив носителей · версии, архитектура и контрольные суммы",
-          "title" : "WinWorld",
-          "url" : "https://winworldpc.com/product/mac-os-x/100"
+          "id": "winworld-10.0",
+          "kind": "webPage",
+          "provider": "WinWorld",
+          "reference": "https://winworldpc.com/product/mac-os-x/100",
+          "subtitle": "Архив носителей · версии, архитектура и контрольные суммы",
+          "title": "WinWorld",
+          "url": "https://winworldpc.com/product/mac-os-x/100"
         },
         {
-          "id" : "repository-10.0",
-          "kind" : "webPage",
-          "provider" : "Macintosh Repository",
-          "reference" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
-          "subtitle" : "Установочные носители и обновления · контрольные суммы на странице",
-          "title" : "Macintosh Repository · коллекция",
-          "url" : "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
+          "id": "repository-10.0",
+          "kind": "webPage",
+          "provider": "Macintosh Repository",
+          "reference": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-",
+          "subtitle": "Установочные носители и обновления · контрольные суммы на странице",
+          "title": "Macintosh Repository · коллекция",
+          "url": "https://www.macintoshrepository.org/45-mac-os-x-for-ppc-and-ppc64-osx-10-0-10-1-10-2-10-3-10-4-10-5-"
         }
       ],
-      "wallpaperURL" : "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.0.jpg",
-      "year" : 2001
+      "wallpaperURL": "https://raw.githubusercontent.com/laberthouman/MacDownUp/main/wallpapers/10.0.jpg",
+      "year": 2001
     }
   ],
-  "revision" : 1,
-  "schemaVersion" : 1,
-  "updatedAt" : "2026-11-25T00:00:00Z"
+  "revision": 2,
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-24T22:52:12.257791Z"
 }
