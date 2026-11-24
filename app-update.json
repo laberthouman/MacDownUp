@@ -1,0 +1,7 @@
+{
+  "build" : 4,
+  "minimumSystemVersion" : "13.0",
+  "releaseNotes" : "Интерфейс с системными обоями, совместимость, IPSW по моделям и автоматический веб-каталог.",
+  "schemaVersion" : 1,
+  "version" : "3.0"
+}
